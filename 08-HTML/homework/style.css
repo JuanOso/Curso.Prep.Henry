@@ -1,6 +1,21 @@
+body {
+  display: block;
+  text-align: center;
+
+  /*align-items: center;*/
+  /*justify-content: center;*/
+  background-image: url("https://images.pexels.com/photos/2796/black-and-white-beach-life-guard-safety.jpg?cs=srgb&dl=pexels-jaymantri-2796.jpg&fm=jpg");
+}
+
+
+
 #h1 {
   color: red;
 }
+h3 {
+  color: yellow;
+}
+
 img {
   width: 400px;
 }
@@ -11,12 +26,14 @@ img {
   border-width: 3px;
   border-style: double;
   border-color: black;
-  margin: 10px;
-  margin-bottom: 30px;
+margin: auto;
+margin-bottom: 60px
+
 }
 
 #spanId {
-  font-size: 18px;
-  margin: 50px;
+  font-size: 24px;
+  margin: 10px;
   padding: 50px;
+  color: orange;
 }
